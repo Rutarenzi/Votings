@@ -50,10 +50,10 @@
         </div>
         <div class="paymentLoad" id="loader200">
             <p> 
-                Please Approve The transaction on your phone
-                Please Approve The transaction on your phone
+                Please Approve The transaction on your phone.
+                if no prompt,Dial MTN *182*7*1# & AIRTEL *182*5*8#
             </p>
-            <div class="closeBtn"><span>X</span></div>
+            <div class="closeBtn" id="closeBtnP"><span>X</span></div>
              <div>
              <div class="loader">
                 <div class="bar1"></div>
@@ -160,7 +160,7 @@
                                         <h5>{{$item->Name}}</h5>
                                         <div>
                                             <p>{{$item->votes->sum('Votes')}} Votes</p>
-                                            <p>{{$item->id}}</p>
+                                            {{-- <p>{{$item->id}}</p> --}}
                                         </div>
                                          
                                 </div>
