@@ -112,6 +112,10 @@ $(window).scroll(()=>{
     $(".paymentAgent").css("display","none");
     $(".paymentForm").css("display","none")
   })
+  $("#closeBtnP").click(()=>{
+    $(".paymentLoad").css("display","none");
+    location.reload();
+  })
 
 });
 const clicker=(id,name)=>{

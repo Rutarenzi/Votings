@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Rutagarama Axcel">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage-UpArt</title>
+    <title>IJABO-Events</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/glider.min.css')}}">
     <link rel="stylesheet" href="{{ asset('css/style3.css')}}">
@@ -13,7 +13,7 @@
     <section class="landpage">
         <nav class="frontBar">
             <div class="frontContainer">
-            <a href="Index.html" class="frontLogo"><span class="frontLogo2">UpArt</span></a>
+            <a href="Index.html" class="frontLogo"><span class="frontLogo2">IjaboEvent</span></a>
              <a href="#" id="menu"><img src="../img/menu.png"></a>
             <ul id="list" class="hide">
                 <li><a class="navA" href="#">Events</a></li>

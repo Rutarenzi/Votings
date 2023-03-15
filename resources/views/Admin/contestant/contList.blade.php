@@ -22,6 +22,7 @@
                    <thead>
                        <tr>
                            <th>No:</th>
+                           <th>Profile</th>
                            <th>Name</th>
                            <th>VotingCode</th>
                            <th>Event</th>
@@ -35,7 +36,8 @@
                     @foreach($contestants as $item)
                    <tr>
                        <td>{{$item->id}}</td>
-
+                       <td><img src="{{ asset('storage/contImages/'.$item->image)}}" alt="Event photo"
+                       style="width:60px;height:60px; border-radius:10%"></td> 
                        <td>{{$item->Name}}</td>
                        <td>{{$item->VotingCode}}</td>
                        <td>{{$item->event->Name}}</td>

@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/style3.css')}}">
-    <title>Single- Product</title>
+    <title>Single-Contestants</title>
 </head>
 
 <body>
@@ -52,10 +52,10 @@
     </div>
     <div class="paymentLoad" id="loader200">
         <p> 
-            Please Approve The transaction on your phone
-            Please Approve The transaction on your phone
+            Please Approve The transaction on your phone.
+            if no prompt,Dial MTN *182*7*1# & AIRTEL *182*5*8#
         </p>
-        <div class="closeBtn"><span>X</span></div>
+        <div class="closeBtn" id="closeBtnP"><span>X</span></div>
          <div>
          <div class="loader">
             <div class="bar1"></div>
